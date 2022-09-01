@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}
+body {
+  background-color: black;
+  color: yellow;
+  font-family: fantasy;
+  font-weight: 900;
+  font-size: large;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0%;
+  bottom: 0;
+  overflow: hidden;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  font-size: 2rem;
+}
+.brandlogo {
+  text-align: center;
+
+  animation-iteration-count: infinite;
+}
+.builds {
+  display: flex;
+  justify-content: center;
+}
+.build {
+  width: 500px;
+  animation-delay: 3s;
+  animation-duration: 3s;
+  animation-iteration-count: inherit;
+}
+.socials {
+  display: flex;
+}
+.socialIcon {
+  margin: 1rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.brand {
+  width: 30%;
+
+  /* margin-left: 20rem; */
+}
+#sneekpeaks {
+  display: flex;
+  justify-content: center;
+}
+
+.ypaper {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.together {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
+#sneekpeaks img {
+  position: absolute;
+}
+
+.image-fader {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-animation: fade 23s infinite;
+  animation: fade 23s infinite;
+}
+#pic1 {
+  background-color: black;
+  animation-delay: 24s;
+}
+#pic2 {
+  animation-delay: 23s;
+  background-image: url("yoots11.webp");
+}
+#pic3 {
+  background-color: black;
+  animation-delay: 22s;
+}
+#pic4 {
+  background-image: url("yoots10.webp");
+  animation-delay: 21s;
+}
+#pic5 {
+  background-color: black;
+  animation-delay: 20s;
+}
+#pic6 {
+  background-image: url("yoots99.webp");
+  animation-delay: 19s;
+}
+#pic7 {
+  background-color: black;
+  animation-delay: 18s;
+}
+#pic8 {
+  background-image: url("yoots9.webp");
+  animation-delay: 17s;
+}
+#pic9 {
+  background-color: black;
+  animation-delay: 16s;
+}
+#pic10 {
+  background-image: url("yootss8.webp");
+  animation-delay: 15s;
+}
+#pic11 {
+  background-color: black;
+  animation-delay: 14s;
+}
+#pic12 {
+  background-image: url("yoots7.webp");
+  animation-delay: 13s;
+}
+#pic13 {
+  background-color: black;
+  animation-delay: 12s;
+}
+#pic14 {
+  background-image: url("yotts6.webp");
+  animation-delay: 11s;
+}
+#pic15 {
+  background-color: black;
+  animation-delay: 10s;
+}
+#pic16 {
+  background-image: url("yoots5.webp");
+  animation-delay: 9s;
+}
+#pic17 {
+  background-color: black;
+  animation-delay: 8s;
+}
+#pic18 {
+  background-image: url("yoots4.webp");
+  animation-delay: 7s;
+}
+#pic19 {
+  background-color: black;
+  animation-delay: 6s;
+}
+#pic20 {
+  background-image: url("yoots3.webp");
+  animation-delay: 5s;
+}
+#pic21 {
+  background-color: black;
+  animation-delay: 4s;
+}
+#pic22 {
+  background-image: url("yoots2.webp");
+  animation-delay: 3s;
+}
+#pic23 {
+  background-color: black;
+  animation-delay: 2s;
+}
+#pic24 {
+  background-image: url("yoots1.webp");
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  2% {
+    opacity: 1;
+  }
+  4% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  2% {
+    opacity: 1;
+  }
+  4% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .brand {
+    margin-top: 1.5rem;
+    width: 94px;
+  }
+  .build {
+    width: 350px;
+  }
+  .yootlist {
+    margin-top: 0.9rem;
+  }
+  .fa-brands {
+    font-size: 17px;
+    animation-duration: 5s;
+  }
+  .img_ypaper {
+    width: 150px;
+  }
+}
+.apply {
+  animation-duration: 5s;
+  /* animation-iteration-count: infinite; */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .brand {
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .brand {
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .brand {
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .brand {
+  }
+}
